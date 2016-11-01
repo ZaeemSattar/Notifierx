@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "142824850150",
+    "firebase_url": "https://notifier-x.firebaseio.com",
+    "project_id": "notifier-x",
+    "storage_bucket": "notifier-x.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142824850150:android:b1ecfd8401f1dc83",
+        "android_client_info": {
+          "package_name": "droid.zaeem.notifierx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142824850150-9kv999fgm72f4htq717vid89vnqbhu0l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "droid.zaeem.notifierx",
+            "certificate_hash": "6A136739D514661D20D0506E37F4228CF136363E"
+          }
+        },
+        {
+          "client_id": "142824850150-q947j3bv16jup8ks17i4ir3emkouj49p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzN57sCGTiU1geT21xQGFPWdwIzIsuUNk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142824850150-q947j3bv16jup8ks17i4ir3emkouj49p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

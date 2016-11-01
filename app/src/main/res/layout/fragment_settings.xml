@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="Basic"
+
+        android:textColor="@color/common_plus_signin_btn_text_light_pressed">
+
+
+    </android.support.v7.widget.AppCompatTextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:background="@drawable/ic_notification_icon"></android.support.v7.widget.AppCompatImageView>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/Switch"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="@android:color/transparent"
+            android:button="@null"
+            android:padding="20dp"
+            android:text="Notifications"
+            android:textColor="#000000"
+            android:textOff="Notifications are OFF"
+            android:textOn="Notifications are ON" />
+    </LinearLayout>
+
+
+</LinearLayout>
